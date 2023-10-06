@@ -1,0 +1,21 @@
+>Evaluación del Modelo: 
+    - Error:  1.4473958015441895
+    - Exactitud:  73.33333492279053
+
+ Reporte de Clasificación: 
+              precision    recall  f1-score   support
+
+     ferrari       1.00      1.00      1.00        10
+        ford       0.58      0.70      0.64        10
+        jeep       0.62      0.50      0.56        10
+
+    accuracy                           0.73        30
+   macro avg       0.74      0.73      0.73        30
+weighted avg       0.74      0.73      0.73        30
+
+
+Matriz de Confusión: 
+           p:jeep  p:ford  p:ferrari
+r:jeep          5       5          0
+r:ford          3       7          0
+r:ferrari       0       0         10

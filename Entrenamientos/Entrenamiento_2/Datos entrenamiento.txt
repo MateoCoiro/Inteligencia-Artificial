@@ -1,0 +1,12 @@
+Datos entrenamiento:
+
+Tamaño de imágenes: 32x32
+Color: sí
+Cantidad de capas: 5
+Cantidad de neuronas (capas ocultas): 1500, 800, 400, 130, 10 
+Tipo de capa de salida: softmax multiclase.
+Cantidad de épocas de entrenamiento: 100
+Índice de aprendizaje: 0.001
+
+
+Modificacion: Tamaño de las imagenes, de 128 a 32

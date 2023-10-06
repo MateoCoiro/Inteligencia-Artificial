@@ -1,0 +1,17 @@
+ Reporte de Clasificación: 
+              precision    recall  f1-score   support
+
+     ferrari       0.97      0.92      0.95       123
+        ford       0.57      0.97      0.72       117
+        jeep       0.98      0.34      0.51       119
+
+    accuracy                           0.75       359
+   macro avg       0.84      0.75      0.72       359
+weighted avg       0.84      0.75      0.73       359
+
+
+Matriz de Confusión: 
+           p:jeep  p:ford  p:ferrari
+r:jeep         41      77          1
+r:ford          1     114          2
+r:ferrari       0      10        113
